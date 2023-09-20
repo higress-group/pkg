@@ -133,6 +133,9 @@ type Options struct {
 	teeToUDSServer   bool
 	udsSocketAddress string
 	udsServerPath    string
+
+	// localTime determines whether the time format of istio log is local time format.
+	LocalTime bool
 }
 
 // DefaultOptions returns a new set of options, initialized to the defaults
